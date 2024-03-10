@@ -1,0 +1,180 @@
+{
+  "id": "1c80011a-512b-48b6-9cfe-fadaeff49fed",
+  "version": "2.0",
+  "name": "homework",
+  "url": "https://rozetka.com.ua/ua/",
+  "tests": [{
+    "id": "d446a8c8-b528-4d75-af89-ffb75f35dfb4",
+    "name": "2",
+    "commands": [{
+      "id": "bb07ada4-0845-4b40-8c02-c254431e7ffd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h2.main-categories__heading",
+      "targets": [
+        ["css=.ng-star-inserted > img:nth-child(3)", "css:finder"],
+        ["xpath=//img[@alt='Rozetka Logo']", "xpath:img"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ae9984b-96bc-4feb-ab99-2c67e3ae169f",
+      "comment": "",
+      "command": "store",
+      "target": "//a[@class='main-categories__link' and contains(text(), 'Товари для геймерів')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "207af2bf-e206-4be0-b40d-6f5ae65b1cd9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Товари для геймерів",
+      "targets": [
+        ["linkText=Товари для геймерів", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(3) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Товари для геймерів')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/game-zone/c80261/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf1c92f2-cc7f-4f8e-899a-b258eb073fc4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Ігрові ноутбуки ",
+      "targets": [],
+      "value": " Ігрові ноутбуки "
+    }, {
+      "id": "883641bd-159e-4192-9fd1-60f2988f3609",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted > img:nth-child(3)",
+      "targets": [
+        ["css=.ng-star-inserted > img:nth-child(3)", "css:finder"],
+        ["xpath=//img[@alt='Rozetka Logo']", "xpath:img"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0dc17732-a052-4b2e-962d-846a01b780a3",
+    "name": "1",
+    "commands": [{
+      "id": "d4f87483-ad45-4da4-9996-86624e801f3e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h2.main-goods__heading",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0c45ebe-d1d4-44dc-ab48-87cd84b12464",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки та комп’ютери",
+      "targets": [
+        ["linkText=Ноутбуки та комп’ютери", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(1) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки та комп’ютери')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/computers-notebooks/c80253/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1b5ef67-4970-40da-a5ea-efebe0960e82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted > img:nth-child(3)",
+      "targets": [
+        ["css=.ng-star-inserted > img:nth-child(3)", "css:finder"],
+        ["xpath=//img[@alt='Rozetka Logo']", "xpath:img"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f465540-abd7-43e7-ac9f-7802be2a139e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Товари для геймерів",
+      "targets": [
+        ["linkText=Товари для геймерів", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(3) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Товари для геймерів')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/game-zone/c80261/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50662c24-f37e-414f-8109-1ce53686b46d",
+      "comment": "",
+      "command": "click",
+      "target": "css=img:nth-child(3)",
+      "targets": [
+        ["css=img:nth-child(3)", "css:finder"],
+        ["xpath=//img[@alt='Rozetka Logo']", "xpath:img"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b8f29d6-24b3-4105-bd6a-11c1d86875ef",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Товари для дому",
+      "targets": [],
+      "value": "Товари для дому"
+    }, {
+      "id": "e5ffda84-cca5-4564-8498-3e7102fea2b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Товари для дому",
+      "targets": [
+        ["linkText=Товари для дому", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(5) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Товари для дому')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/tovary-dlya-doma/c2394287/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6685ee3-4e73-419f-8b03-c2e3061066ba",
+      "comment": "",
+      "command": "store",
+      "target": "//h1[@class=\"portal__heading ng-star-inserted\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e99fed7-2839-48e9-9799-36f4a8d78c16",
+      "comment": "",
+      "command": "click",
+      "target": "id=fat-menu",
+      "targets": [
+        ["id=fat-menu", "id"],
+        ["css=#fat-menu", "css:finder"],
+        ["xpath=//button[@id='fat-menu']", "xpath:attributes"],
+        ["xpath=//rz-header-fat-menu/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d139f856-aeba-4f14-9232-8fb7bcfb893f",
+      "comment": "",
+      "command": "click",
+      "target": "css=img:nth-child(3)",
+      "targets": [
+        ["css=img:nth-child(3)", "css:finder"],
+        ["xpath=//img[@alt='Rozetka Logo']", "xpath:img"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "96127894-69d6-4352-8304-0f9a9ac2c166",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d446a8c8-b528-4d75-af89-ffb75f35dfb4"]
+  }],
+  "urls": ["https://rozetka.com.ua/ua/"],
+  "plugins": []
+}
